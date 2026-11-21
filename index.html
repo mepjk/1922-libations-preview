@@ -229,7 +229,7 @@ html body .hours tr:last-child th,html body .hours tr:last-child td{border-botto
 html body .ticket{border-radius:20px}
 html body .visit .cta{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%}html body .visit .cta .btn{width:100%;margin:0}
 /* Dock: floating frosted tab bar */
-html body{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+html body{padding-bottom:0}html body footer{padding-bottom:calc(104px + env(safe-area-inset-bottom,0px));box-shadow:0 50vh 0 50vh var(--forest)}html body .visit{padding-bottom:44px}
 html body .dock{left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom,0px));padding:0;border-radius:22px!important;border:.5px solid rgba(255,255,255,.14);background:rgba(32,55,45,.82);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);box-shadow:0 10px 30px -8px rgba(0,0,0,.4)}
 html body .dock a{flex-direction:column;gap:3px;min-height:60px;font-size:11px;font-weight:500;letter-spacing:.02em}
 html body .dock svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
@@ -246,6 +246,7 @@ html body .plate-description{font-size:14.5px;line-height:1.5}
 }
 @media(max-width:600px) and (prefers-reduced-transparency:reduce){html body header{background:var(--paper);backdrop-filter:none;-webkit-backdrop-filter:none}html body .dock{background:var(--forest);backdrop-filter:none;-webkit-backdrop-filter:none}}
 @media(max-width:600px) and (prefers-reduced-motion:reduce){html body .btn:active{transform:none}html body .g-grid,html body .menu-controls{scroll-behavior:auto}}
+/* 2026-11-21: tablet widths, footer runs behind the dock (no cream strip) */@media(min-width:601px) and (max-width:860px){html body{padding-bottom:0}html body footer{padding-bottom:calc(112px + env(safe-area-inset-bottom,0px));box-shadow:0 50vh 0 50vh var(--forest)}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"1922 Libations & Bites","description":"Dinner, wines and cocktails at Old Taylor High, with a separate 21+ speakeasy.","address":{"@type":"PostalAddress","streetAddress":"410 W 7th St #110","addressLocality":"Taylor","addressRegion":"TX","postalCode":"76574","addressCountry":"US"},"telephone":"+1-737-244-1273","sameAs":["https://www.instagram.com/1922taylortx/","https://www.instagram.com/1922speakeasy/"],"servesCuisine":"American"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"Bingo with Chyna Rose","startDate":"2026-11-28T20:00:00-06:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","image":"https://mepjk.github.io/1922-libations-preview/assets/bingo-november.jpg","description":"Bingo night with Chyna Rose at 1922. Ages 21 and over.","location":{"@type":"Place","name":"1922 Libations & Bites","address":{"@type":"PostalAddress","streetAddress":"410 W 7th St #111","addressLocality":"Taylor","addressRegion":"TX","postalCode":"76574","addressCountry":"US"}}}</script>
